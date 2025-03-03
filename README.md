@@ -1,4 +1,4 @@
-# html-css-javascript-amazon-s3
+# Portfolio Static Website
 
 ![license](https://img.shields.io/github/license/rctrodrigo/html-css-javascript-aws-s3?style=for-the-badge)
 
