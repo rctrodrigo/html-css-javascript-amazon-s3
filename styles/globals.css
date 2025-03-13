@@ -1,4 +1,32 @@
+:root {
+    --background: #ffffff;
+    --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #0a0a0a;
+        --foreground: #ededed; 
+    }
+}
+
 body {
+    background: var(--background);
+    color: var(--foreground);
     margin: 0 auto;
     max-width: 80%;
+}
+
+footer {
+    display: grid;
+    grid-column-start: 5;
+    grid-row-start: 8;
+    grid-column: 5 / 5;   
+    grid-row: 1 / 1;
+    text-align: center; 
+}
+
+.copyright {
+    font-size: 0.75rem;
+    line-height: 1rem; /* 16px */
 }
